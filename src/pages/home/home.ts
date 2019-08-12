@@ -17,7 +17,7 @@ export class HomePage {
   creds : CredenciaisDTO = {
     email:"",
     senha:""
-  };
+  }; 
 
   constructor(
     public navCtrl: NavController, 
@@ -29,7 +29,7 @@ export class HomePage {
   ionViewWillEnter() {
     this.menu.swipeEnable(false);
   }
-  ionViewDidLeave() {
+  ionViewWillLeave() {
     this.menu.swipeEnable(true);
   }
 
@@ -49,5 +49,9 @@ export class HomePage {
         this.navCtrl.setRoot("CategoriasPage");
       },
       error => {}); 
+  }
+
+  signup(){
+    this.navCtrl.push('SignupPage');
   }
 }
