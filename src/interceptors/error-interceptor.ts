@@ -3,7 +3,6 @@ import { HttpInterceptor, HTTP_INTERCEPTORS, HttpRequest, HttpHandler, HttpEvent
 import { Observable } from "rxjs/Rx";
 import { StorageService } from "../services/storage.service";
 import { AlertController } from "ionic-angular";
-import { Message } from "@angular/compiler/src/i18n/i18n_ast";
 import { FieldMessage } from "../models/fieldMessage";
 
 @Injectable()
