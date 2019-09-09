@@ -13,6 +13,8 @@ import { ClienteService } from '../../services/domain/cliente.service';
   selector: 'page-signup',
   templateUrl: 'signup.html',
 })
+
+
 export class SignupPage {
 
   formGroup: FormGroup;

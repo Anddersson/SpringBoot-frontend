@@ -59,5 +59,9 @@ export class CartPage {
   goOn() {
     this.navCtrl.setRoot("CategoriasPage")
   }
+
+  ckeckout(){
+    this.navCtrl.push("PickAddressPage")
+  }
   
 }
