@@ -30,6 +30,7 @@ export class MyApp {
       { title: 'Profile', component: "ProfilePage"},
       { title: 'Categorias', component: "CategoriasPage"},
       { title: 'Carrinho', component:  "CartPage"},
+      { title: 'Cadastro de Produtos', component: "ProductRegistrationPage"},
       {title:'Logout', component: ""}
 
     ];
